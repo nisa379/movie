@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.man{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    /* background-color:coral; */
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(73, 73, 73);
+    h5{
+        color: rgb(170, 170, 170);
+    }
+}
+.pic{
+    width: 100%;
+    height: 70%;
+    /* background-color: cadetblue; */
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.tex{
+    width: 100%;
+    height: 12%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.con{
+    margin-top: 35px;
+    display: flex;
+    margin-left: 30%;
+    gap: 10px;
+}
+h4{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.t1{
+    margin-left: 15px;
+    margin-top: 30px;
+    color: white;
+}
+.t2{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+.icon{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(73, 73, 73);
+    display: flex;
+    margin-top: 10px;
+}
+.c1{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.t3{
+    color: white;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.t4{
+    margin-top: 35px;
+    width: 90%;
+    height: 30px;
+    background-color:rgb(69, 69, 69);
+    margin-left: 35px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+    
+}
+.tcon{
+    color: white;
+    display: flex;
+    padding: 5px;
+    margin-left: 10px;
+}
+.t5{
+    h3{
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+    }
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.t6{
+    width: 47px;
+    height: 30px;
+    background-color: chartreuse;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-left: 20px;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+.num{
+    background-color:rgb(69, 69, 69);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(231, 231, 231);
+}
+.b_con{
+    position: absolute;
+    top: -10%;
+    /* background-color: rgb(197, 54, 54); */
+    margin-left: 35px;
+}
